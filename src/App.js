@@ -11,6 +11,10 @@ class App extends Component {
     this.state = {users: []};
   }
   componentDidMount() {
+    this.props.getContacts();
+    this.props.getVehicles();
+    this.props.getComments();
+    this.props.getProducts();
 
   }
   render() {

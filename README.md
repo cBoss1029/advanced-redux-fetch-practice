@@ -9,6 +9,7 @@
 * http://localhost:4001/comments
 
 
+
 ### Create actions in actions/index.js to retrieve data
 * loadContacts
     * return a thunk function

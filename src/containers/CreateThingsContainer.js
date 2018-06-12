@@ -1,12 +1,9 @@
 import { connect } from "react-redux";
 import CreateThings from "../components/CreateThings";
-import {
-  createProduct,
-  createVehicle,
-  createContact,
-  createComment
-} from "../actions";
-
+import {createProduct} from "../actions/products";
+import {createContact} from '../actions/contacts'
+import {createVehicle} from '../actions/vehicles'
+import {createComment} from '../actions/comments'
 function mapDispatchToProps(dispatch) {
   return {
     createProduct: function (product) {
